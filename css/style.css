@@ -1,0 +1,35 @@
+.pool {
+    padding: 15px;
+}
+
+/* Change focus color to pink */
+.custom-input:focus {
+    border-color: pink;
+    box-shadow: 0 0 0 0.2rem rgba(255, 182, 193, 0.25);
+    /* Light pink shadow */
+}
+
+/* Custom color for labels */
+.custom-input+label {
+    color: pink;
+}
+
+/* Customize the submit button */
+.btn-primary {
+    background-color: #ee282d;
+    border-color: #ee282d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #e67979;
+    border-color: #e67979;
+    color: white;
+    
+}
+
+h1 {
+    color: #234491;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}

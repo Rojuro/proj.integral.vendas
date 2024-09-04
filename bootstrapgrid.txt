@@ -1,0 +1,169 @@
+Criando uma estrutura de Grid com comandos em Bootstrap
+
+comando div.row*3, neste exemplo vai criar 3 div class row
+exemplo:    <div class="row">></div>
+            <div class="row">></div>
+            <div class="row">></div>
+
+
+dentro de um div class="row" se cria as divs col com o 
+comando div.col*3, neste exemplo vai criar 3 div class col
+exemplo:    <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+
+Dica: 1º se cria os Grid´s depois substitui os Elementos 
+
+col calcula os tamanhos de forma automatica, sendo que o valor final do tamanho por padrão e 12.
+
+------Exemplo das DIV´S--------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+------Alterações das DIV´S--------------
+montando um layout com Tags Semanticas
+utiliza o atalho selecionando a div e {Ctrl + H}
+aparece um campo para fazer as modificações
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container-fluid">
+        <section class="row">
+            <article class="col"></article>
+        </section>
+        <section class="row">
+            <article class="col"></article>
+            <article class="col"></article>
+            <article class="col"></article>
+        </section>
+        <section class="row">
+            <article class="col"></article>
+            <article class="col"></article>
+        </section>
+        <section class="row">
+            <article class="col"></article>
+            <article class="col"></article>
+            <article class="col"></article>
+            <article class="col"></article>
+        </section>
+        <section class="row">
+            <article class="col"></article>
+            <article class="col"></article>
+            <article class="col"></article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+--------------------------
+
+comandos avançados
+
+section>article.row*8>div.col
+
+        <section>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+            <article class="row">
+                <div class="col"></div>
+            </article>
+        </section>
+
+
+section>form>article.row*8>div.col
+
+        <section>
+            <form action="">
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+                <article class="row">
+                    <div class="col"></div>
+                </article>
+            </form>
+        </section>
+
+
+
+article.row>div.col
+comando o button
